@@ -1,0 +1,176 @@
+
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: url('BACKgroundd.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+
+    /*.......NAVBAR CODING........*/
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin: 10px 10px;
+    }
+
+    nav h3{
+            color: white;
+            font-size: 2rem;
+            margin: 0px 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    nav span{
+        color: #e1cb06;
+        
+    }
+
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    ul li{
+        display: inline-block;
+        padding: 0px 10px;
+        margin: 10px 15px;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+
+    ul li a{
+        color: #e1cb06;
+        text-decoration: none;
+        padding: 0px 8px;
+    }
+    
+
+    li a:hover{
+        color: rgb(255, 255, 255);
+        padding: 3px 8px;
+        border-radius: 5px;
+        background-color: orangered;
+    }
+
+    .button button{
+        border: none;
+        border-radius: 8px;
+        background-color: #ebeb26;
+        color: rgb(0, 0, 0);
+        padding: 8px 32px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 2px 10px;
+        box-shadow: #ffffff 1px 1px 3px;
+        cursor: pointer;
+      
+    }
+
+    .button button:hover{
+        box-shadow: 1px 1px 10px rgb(237, 237, 237);
+    }
+
+
+  
+    /*.....EAT FRESH FRUIT CONTAINER START FROM HERE.........*/
+
+    .container{
+        /* border: 2px solid red; */
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        top: 130px;
+        left: 100px;
+        /* backdrop-filter: blur(1px); */
+    }
+
+    .head h1{
+        margin-top: 30px;
+        color: white;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 4rem;
+        font-weight: 100;
+    }
+
+    h1 span{
+        color: #ebeb26;
+        font-weight: 500;
+        text-shadow: 1px 1px 4px #e1cb06;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+   p{
+       color: white;
+       font-weight: 2px;
+       margin: 10px 5px;
+       font-size: 1.1rem;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       opacity: 0.7;
+   }
+
+   .knowmore{
+       margin: 50px 10px;
+   }
+
+   .knowmore button{
+        border: none;
+        border-radius: 8px;
+        background-color: #20d246;
+        color: rgb(0, 0, 0);
+        padding: 8px 32px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 2px 10px;
+        cursor: pointer;
+        box-shadow: 1px 1px 2px #20d246;
+   }
+
+   .knowmore button:hover{
+       color: white;
+       background-color: rgb(0, 0, 0);
+       box-shadow: none;
+   }
+
+
+   /*......RESPONSIVE WEBPAGE MEDIA QUERIES.......*/
+
+   @media only screen and (min-width: 300px) and (max-width: 800px){
+    .container{
+        display: block;
+        text-align: center;
+        margin-top: 300px;
+        width: 700px;
+        height: 800px;
+    }
+    .button button{
+        display: none;
+    }
+   }
+
+   @media only screen and (min-width: 800px) and (max-width: 1500px){
+       .container{
+        margin-top: 100px;
+        margin-left: 80px;
+       }
+   }
+
+
+
+
+   /*.......THANKIEWWW GUYZ :).........*/
